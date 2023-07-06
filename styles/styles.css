@@ -117,22 +117,6 @@ margin-bottom: 25px;
 .contacts{
     margin-bottom: 50px;
 }
-/* .contact-type{
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 24px;
-    color: #ffffff;
-    margin-right: 10px;
-}
-
-.contact-link{
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
-    color:#565e6a;
-} */
 
 .photo{
     width: 370px;
@@ -187,24 +171,7 @@ margin-bottom: 25px;
     
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-/* .contacts-nav {
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-text-decoration: none;
-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-color: #ffffff;
-}
-.contacts-nav .contacts-icon a:hover,
-.contacts-nav .contacts-icon a:focus  {
-    color: #2196f3;
-}
 
-
-.contacts-icon{
-    fill: #ffffff;
-} */
 
 .contacts-list{
 
@@ -377,6 +344,12 @@ font-weight: 500;
 
 }
 
+@media (max-width: 768px){
+    .text-button{
+        font-size: 18px;
+    }
+}
+
 .text-button{
 font-weight: 700;
     font-size: 36px;
@@ -391,4 +364,225 @@ font-weight: 700;
 
 .container{
     width: 900px;
+}
+
+@media screen and (max-width: 600px) {
+    .main{
+    display: flex;
+        flex-direction: column-reverse;
+        width: 300px;
+        margin: 0 auto;
+    }
+}
+@media screen and (min-width: 1200) {
+    .main{
+        display: flex;
+            flex-direction: row-reverse;
+            width: 1200px;
+            margin: 0 auto;
+    }
+}
+@media screen and (max-width: 600px) {
+    .main-content {
+       
+            background-color: #ffffff;
+            box-shadow: 6px 6px 20px rgba(0, 0, 0.1);
+            padding: 60px 30px;
+        }
+}
+
+@media screen and (min-width: 1200px){
+    .main-content {
+            background-color: #ffffff;
+            box-shadow: 6px 6px 20px rgba(0, 0, 0.1);
+            padding: 105px 90px;
+        }
+}
+
+@media screen and (min-width: 1200px){
+    .about-name {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 45px;
+            line-height: 55px;
+            color: black;
+            margin-bottom: 25px;
+        }
+}
+
+@media screen and (max-width: 600px){
+
+.about-name {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 55px;
+        color: black;
+        margin-bottom: 25px;
+        padding: 0;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .about-description {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 24px;
+            color: #595959;
+            width: 400px;
+            text-align: justify;
+        }
+}
+@media screen and (max-width: 600px){
+.about-description{
+    width: 200px;
+}
+}
+
+@media screen and (min-width: 1200px){
+    .sidebar {
+            background-color: #1E2939;
+            padding-top: 40px;
+            width: 370px;
+        }
+}
+
+@media screen and (max-width: 600px){
+.sidebar {
+        background-color: #1E2939;
+        padding-top: 40px;
+        width: 300px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .photo{
+        width:370;
+    }
+}
+@media screen and (max-width: 600px){
+    .photo{
+        width:300px;
+    }
+}
+
+@media  screen and (min-width: 1200px) {
+    .button {
+            border-radius: 4px;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 1.33;
+            display: inline-block;
+            align-items: center;
+            text-align: center;
+            letter-spacing: 0.06em;
+            color: #FFFFFF;
+            box-shadow: 0px 4px 4px 0 rgba(0, 0, 0, 0.15);
+            cursor: pointer;
+            background-color: #2196F3;
+            border-color: #2196F3;
+            margin-top: 100px;
+            margin-left: 60px;
+    
+            padding: 10px 32px;
+    
+            transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+}
+@media screen and (max-width: 600px){
+    .button {
+            border-radius: 4px;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 1.33;
+            display: inline-block;
+            align-items: center;
+            text-align: center;
+            letter-spacing: 0.06em;
+            color: #FFFFFF;
+            box-shadow: 0px 4px 4px 0 rgba(0, 0, 0, 0.15);
+            cursor: pointer;
+            background-color: #2196F3;
+            border-color: #2196F3;
+            margin-top: 50px;
+            margin-bottom: 20px;
+            margin-left: 60px;
+            width:375px;
+            padding: 10px 32px;
+    
+            transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+}
+
+@media screen and (min-width: 1200px){
+    .header-name{
+        font-size:45px;
+        font-weight: 700;
+        font-style:normal;
+        color:#1E2939;
+    }
+}
+@media screen and (max-width: 600px){
+    .header-name {
+            font-size: 36px;
+            font-weight: 700;
+            font-style: normal;
+            color: #1E2939;
+            width:175px;
+            margin-left:-550px;
+        }
+}
+@media screen and (min-width: 1200px){
+    .contacts-button {
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 2;
+            letter-spacing: 0.02em;
+            text-decoration: none;
+            transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+            margin-left: 170px;
+    
+        }
+}
+@media screen and (max-width: 600px){
+    .contacts-button {
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 2;
+            letter-spacing: 0.02em;
+            text-decoration: none;
+            transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+            margin-left: 5px;
+    
+        }
+}
+@media screen and (min-width: 1200px) {
+.text-button {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 2;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin-left: 170px;
+    margin-right: 170px;
+    text-align: justify;
+}
+}
+@media screen and (max-width: 600px){
+.text-button {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 2;
+        letter-spacing: 0.02em;
+        text-decoration: none;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: justify;
+}
 }
