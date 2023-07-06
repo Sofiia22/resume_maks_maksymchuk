@@ -533,7 +533,7 @@ font-weight: 700;
             font-style: normal;
             color: #1E2939;
             width:175px;
-            margin-left:-550px;
+            /* margin-left:-550px; */
         }
 }
 @media screen and (min-width: 1200px){
